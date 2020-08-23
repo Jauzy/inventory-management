@@ -64,7 +64,7 @@ const RegisterAdmin = props => {
                                             <CardTitle tag="h4">Admin</CardTitle>
                                         </CardHeader>
                                         <CardBody className='mb-0'>
-                                            <Form className="form mb-0">
+                                            <Form className="form mb-0" autoComplete='off'>
                                                 <InputGroup
                                                     className={classnames({
                                                         "input-group-focus": input.nameFocus

@@ -327,6 +327,7 @@ const Dashboard = (props) => {
                                             <th className="text-center">#</th>
                                             <th>Item Name</th>
                                             <th>Borrowed on Date</th>
+                                            <th>Borrowed By</th>
                                             <th>Return Date</th>
                                             <th>Returned to</th>
                                         </tr>

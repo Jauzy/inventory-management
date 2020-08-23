@@ -102,7 +102,7 @@ const Login = (props) => {
                                             <CardTitle tag="h4">Login</CardTitle>
                                         </CardHeader>
                                         <CardBody className='mb-0'>
-                                            <Form className="form mb-0">
+                                            <Form className="form mb-0" autoComplete='off'>
                                                 <InputGroup
                                                     className={classnames({
                                                         "input-group-focus": input.emailFocus
@@ -158,7 +158,7 @@ const Login = (props) => {
                                             </div>}
                                         </CardBody>
                                         <CardFooter className='mt-0'>
-                                            <Button className="btn-round" color="primary" size="lg">
+                                            <Button className="btn-round" color="primary" size="lg" onClick={onSubmit}>
                                                 Get Started
                                             </Button>
                                         </CardFooter>
